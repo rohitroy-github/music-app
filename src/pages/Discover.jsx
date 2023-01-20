@@ -22,7 +22,7 @@ const Discover = () => {
   //   const { activeSong, isPlaying } = useSelector((state) => state.player);
   //   const { data, isFetching, error } = useGetSongsByGenreQuery(genreListId || 'POP');
 
-  // whileDataIsFetching
+  // whileData/SongsIsFetching
   if (isFetching) return <Loader title="Loading songs..." />;
 
   // encounteringAnError
